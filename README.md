@@ -14,6 +14,36 @@ $ npm install -g got
 ```
 
 # Usage
+
+#### To get the random quote of game of throne.
 ```sh-session
-$ got quote [character-name]
+$ got quote
 ```
+ 
+
+#### Character wise quotes
+```sh-session
+$ got quote [character_name]
+```
+
+#### List of all Characters
+```sh-session
+$ got characters
+```
+
+
+**Current Characters:**
+##### List of all the characters
+
+| Character Name                           | Suggested Search Parameter   |
+| :---                                     | :---                         |
+| Bronn                                    | bronn                        |
+| Brynden Tully                            | brynden                      |
+| Cersei                                   | cersei                       |
+| The Hound                                | hound                        |
+| Jaime Lannister                          | jaime                        |
+| Littlefinger                             | littlefinger                 |
+| Olenna Tyrell                            | olenna                       |
+| Renly Baratheon                          | renly                        |
+| Tyrion                                   | tyrion                       |
+| Varys                                    | varys                        |
