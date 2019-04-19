@@ -1,7 +1,7 @@
 {
   "name": "@prakash106/got-quotes",
   "description": "Popular Game of thrones quote of famious characters.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Prakash106",
   "bin": {
     "got": "./bin/run"
@@ -46,7 +46,11 @@
   ],
   "homepage": "https://github.com/Prakash106/got-quotes-cli",
   "keywords": [
-    "oclif", "axios", "chalk", "colors", "figlet"
+    "oclif",
+    "axios",
+    "chalk",
+    "colors",
+    "figlet"
   ],
   "license": "MIT",
   "main": "lib/index.js",
