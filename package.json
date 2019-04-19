@@ -42,7 +42,7 @@
     "/bin",
     "/src",
     "/npm-shrinkwrap.json",
-    "/oclif.manifest.json"
+    ".oclif.manifest.json"
   ],
   "homepage": "https://github.com/Prakash106/got-quotes-cli",
   "keywords": [
