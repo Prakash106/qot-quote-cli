@@ -10,7 +10,7 @@ Popular Game of thrones quote of famious characters.
 
 # Installation
 ```sh-session
-$ npm install -g got
+$ npm i @prakash106/got-quotes
 ```
 
 # Usage
