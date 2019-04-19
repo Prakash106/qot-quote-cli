@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`got hello [FILE]`](#got-hello-file)
 * [`got help [COMMAND]`](#got-help-command)
+* [`got quote [FILE]`](#got-quote-file)
 
 ## `got hello [FILE]`
 
@@ -67,4 +68,20 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6/src/commands/help.ts)_
+
+## `got quote [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ got quote [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/quote.ts](https://github.com/Prakash106/got-quotes-cli/blob/v0.0.1/src/commands/quote.ts)_
 <!-- commandsstop -->
