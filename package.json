@@ -29,6 +29,7 @@
     "chai": "^4.2.0",
     "globby": "^8.0.2",
     "mocha": "^5.2.0",
+    "/src",
     "nyc": "^13.3.0",
     "ts-node": "^8.1.0",
     "tslint": "^5.16.0",
@@ -40,9 +41,9 @@
   "files": [
     "/lib",
     "/bin",
-    "/src",
     "/npm-shrinkwrap.json",
-    "/oclif.manifest.json"
+    "/oclif.manifest.json",
+    ".oclif.manifest.json"
   ],
   "homepage": "https://github.com/Prakash106/got-quotes-cli",
   "keywords": [
@@ -66,10 +67,13 @@
     "url": "git+https://github.com/prakash106/got-quotes-cli.git"
   },
   "scripts": {
-    "postpack": "rm -f oclif.manifest.json",
-    "posttest": "tslint -p test -t stylish",
-    "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
-    "test": "nyc --extension .ts mocha --forbid-only \"test/**/*.test.ts\"",
+    "clean": "rm -f .oclif.manifest.json",
+    "lint": "eslint .",
+    "postpublish": "npm run clean",
+    "posttest": "npm run lint",
+    "prepack": "oclif-dev manifest",
+    "prepublishOnly": "oclif-dev manifest",
+    "preversion": "npm run clean",
     "version": "oclif-dev readme && git add README.md"
   },
   "types": "lib/index.d.ts",
