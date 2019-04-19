@@ -1,7 +1,7 @@
 {
   "name": "@prakash106/got-quotes",
   "description": "Popular Game of thrones quote of famious characters.",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Prakash106",
   "bin": {
     "got": "./bin/run"
