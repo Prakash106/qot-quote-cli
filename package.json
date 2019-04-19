@@ -38,14 +38,15 @@
     "node": ">=8.0.0"
   },
   "files": [
-    "/bin",
     "/lib",
+    "/bin",
+    "/src",
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
   "homepage": "https://github.com/Prakash106/got-quotes-cli",
   "keywords": [
-    "oclif"
+    "oclif", "axios", "chalk", "colors", "figlet"
   ],
   "license": "MIT",
   "main": "lib/index.js",
