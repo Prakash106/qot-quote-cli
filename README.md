@@ -28,9 +28,26 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`got characters [FILE]`](#got-characters-file)
 * [`got hello [FILE]`](#got-hello-file)
 * [`got help [COMMAND]`](#got-help-command)
-* [`got quote [FILE]`](#got-quote-file)
+* [`got quote [CHARACTER]`](#got-quote-character)
+
+## `got characters [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ got characters [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/characters.ts](https://github.com/Prakash106/got-quotes-cli/blob/v0.0.1/src/commands/characters.ts)_
 
 ## `got hello [FILE]`
 
@@ -69,18 +86,13 @@ OPTIONS
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.1.6/src/commands/help.ts)_
 
-## `got quote [FILE]`
+## `got quote [CHARACTER]`
 
-describe the command here
+Popular Game of thrones quote of famious characters.
 
 ```
 USAGE
-  $ got quote [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
+  $ got quote [CHARACTER]
 ```
 
 _See code: [src/commands/quote.ts](https://github.com/Prakash106/got-quotes-cli/blob/v0.0.1/src/commands/quote.ts)_
